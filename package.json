@@ -2,8 +2,9 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "My 1st todo app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "test"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NikoKyriakid/todo/issues"
   },
-  "homepage": "https://github.com/NikoKyriakid/todo#readme"
+  "homepage": "https://github.com/NikoKyriakid/todo#readme",
+  "dependencies": {
+    "express": "^4.16.0"
+  }
 }
