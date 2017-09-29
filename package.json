@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "My 1st todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikoKyriakid/todo.git"
+  },
+  "author": "Niko Kyriakid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikoKyriakid/todo/issues"
+  },
+  "homepage": "https://github.com/NikoKyriakid/todo#readme"
+}
