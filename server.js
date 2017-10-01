@@ -11,12 +11,12 @@ app.get('/', function (req, res) {
 //   console.log('Example app listening on port 3000!')
 // })
 
-const server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
-const server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+const port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
+const ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
  
-app.listen(server_port, server_ip_address, function () {
+app.listen(port, ip, function () {
     console.log('Nick server is starting.....')
-    console.log( "Listening on " + server_ip_address + ", port " + server_port )
+    console.log( "Listening on " + ip + ", port " + port )
 });
 
 
